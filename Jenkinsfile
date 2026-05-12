@@ -13,7 +13,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/milind55555/Sonarqube_java_application.git'
+                git branch: 'main', url: 'https://github.com/Sucheta26/Java-Sonar-Jenkins.git'
             }
         }
 
