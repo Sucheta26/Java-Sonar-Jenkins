@@ -29,7 +29,7 @@ pipeline {
                     sh """
                     mvn sonar:sonar \
                     -Dsonar.projectKey=java-app \
-                    -Dsonar.host.url=http://13.234.122.137:9000/ \
+                    -Dsonar.host.url=http://35.154.166.45:9000/ \
                     -Dsonar.login=$SONAR_TOKEN
                     """
                 }
